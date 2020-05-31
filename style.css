@@ -1,0 +1,1374 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============== { START HEADER } ===============*/
+
+.header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+/* =============== { END HEADER } ===============*/
+
+/* =============== { START SING IN CLASS } ===============*/
+
+.settings-class {
+    display: flex;
+    flex-flow: row-reverse;
+    float: right;
+    padding: 10px;
+}
+
+header .sign-in-class {
+    width: 90px;
+    border: solid 1px #065fd4;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 0 8px 0 8px;
+}
+
+
+.sign-in-class .sign-in .sign-in-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #065fd4;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.sign-in-class .sign-in .sign-in-icon img {
+    width: 150%;
+    height: 100%;
+    margin: 0 0 0 -6px;
+}
+
+.sign-in-class .sign-in span {
+    color: #065fd4;
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.settings-class .settings {
+    float: right;
+}
+
+.settings-class .settings .first-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.first-setting .frst-sg-btn {
+    display: inline-block;
+    margin: 0 10px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out; 
+}
+
+.first-setting .frst-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    width: 15px;
+    height: 17px;
+    margin: 10px 0 0 12px;
+    display: inline-block;
+}
+
+.first-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+    right: -15px;
+    top: 55px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.settings-class .settings .first-setting .frst-sg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.settings-class .settings .first-setting .frst-sg-box {
+    position: absolute;
+    background-color: #FFF;
+    width: 280px;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+    right: 20px;
+    margin: 7px auto;
+    z-index: 2;
+}
+
+.settings-class .settings .first-setting .sg-box{
+    display: none;
+}
+
+
+.settings .first-setting .frst-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.settings .first-setting .frst-sg .sg-option {
+    display: inline;
+}
+.settings .first-setting .frst-sg .sg-option .option-img {
+    float: left;
+    width: 25px;
+    height: 25px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .first-setting .frst-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings .first-setting .frst-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.settings .first-setting .frst-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .first-setting .frst-sg .sg-option .option-title .arrow-right {
+    float: right;
+    width: 16px;
+    height: 14px;
+    margin: 7px 5px 0 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .first-setting .frst-sg .sg-option .option-title .arrow-right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.settings-class .settings .second-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.second-setting .sd-sg-btn {
+    display: inline-block;
+    margin: 0 5px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out; 
+}
+
+.second-setting .sd-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    margin: 10px 0 0 9px;
+}
+
+.second-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: -18px;
+    top: 60px;
+    display: block;
+    width: 90px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default
+}
+
+
+.settings-class .settings .second-setting .sd-sg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    position: absolute;
+    background: #FFF;
+    width: 270px;
+    left: -45px;
+    margin: 7px auto;
+    z-index: 2;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+}
+
+.settings-class .settings .second-setting .sg-box {
+    display: none;
+}
+.settings .second-setting .sd-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.settings .second-setting .sd-sg .sg-option {
+    display: inline;
+}
+.settings .second-setting .sd-sg .sg-option .option-img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.settings-class .settings .firth-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.firth-setting .fth-sg-btn {
+    display: inline-block;
+    margin: 0 10px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.firth-setting .fth-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 50px;
+    height: 38px;
+    display: inline-block;
+    margin: 2px -6px;
+}
+
+.firth-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: -45px;
+    top: 60px;
+    display: block;
+    width: 152px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default
+}
+
+
+.settings-class .settings .firth-setting .fth-sg-img img {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    position: absolute;
+    background: #FFF;
+    width: 200px;
+    margin: 1px auto;
+    z-index: 2;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+}
+
+.settings-class .settings .firth-setting .sg-box {
+    display: none;
+}
+.settings .second-setting .fth-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.settings .firth-setting .fth-sg .sg-option {
+    display: inline;
+}
+.settings .firth-setting .fth-sg .sg-option .option-img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 25px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class-intro {
+    display: none;
+}
+
+header .search-class .search {
+    margin: 15px 8em; /* in responsive will be margin: 15px */
+    float: right;
+    display: flex;
+    width: 45%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+.back-btn {
+    display: none;
+}
+
+header .search-class .search input[type="text"] {
+    float: left;
+    direction: ltr;
+    padding: 5px;
+    width: 90%;
+    border: none;
+}
+
+header .search-class .search .search-btn {
+    background-color: #F1F1F1;
+    float: right;
+    width: 50px;
+    height: 30px;
+    border-left: solid 1px rgb(216, 215, 215);
+    user-select: none;
+    cursor: pointer;
+}
+
+
+header .search-class .search .search-btn:hover {
+    background: rgb(236, 235, 235)
+}
+
+header .search-class .search .search-btn img {
+    width: 16px;
+    height: 16px;
+    margin: 7px 20px;
+}
+
+header .search-class .search span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: 0;
+    top: 60px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: auto;
+    user-select: none;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class {
+    display: inline-block;
+}
+
+header .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+header .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+/* =============== { START MENU CLASS } ===============*/
+.menu-class {
+    position: relative;
+    z-index: 4;
+}
+
+.menus-class {
+    display: none;
+    position: relative;
+    z-index: 4;
+}
+
+#logo-menu-btn-class-menu {
+    display: none;
+}
+
+.menu-class .menu-container {
+    position: fixed;
+    top: 60px;
+    background: #FFF;
+    overflow-y: scroll;
+    height: 93%;
+}
+
+.menu-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-container:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-container:hover::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(214, 211, 211);
+}
+
+.menu-container .options-class {
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.menu-container .option-class {
+    transition: .1s;
+    cursor: pointer;
+}
+
+.menu-container .options-class #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+}
+
+.menu-container .options-class #home span {
+    color: #000;
+}
+.menu-container .option-class .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.menu-container .options-class .option-img-title img {
+    width: 19px;
+    height: 20px;
+}
+
+.menu-container .options-class .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-container .options-class #home:hover {
+    background: rgb(202, 200, 200);
+}
+
+.menu-container .option-class:hover {
+    background-color: #F1F1F1;
+}
+
+.menu-container .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* other settings  */
+
+.last-menu-sgs .sign-in-menu .sign-in-desc p {
+    width: 95%;
+    color: rgb(99, 98, 98);
+}
+
+.last-menu-sgs .sign-in-menu {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.last-menu-sgs .sign-in-class {
+    width: 90px;
+    border: solid 1px #065fd4;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 0 8px 0 8px;
+}
+
+
+.sign-in-class .sign-in .sign-in-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #065fd4;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.sign-in-class .sign-in .sign-in-icon img {
+    width: 150%;
+    height: 100%;
+    margin: 0 0 0 -6px;
+}
+
+.sign-in-class .sign-in span {
+    color: #065fd4;
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+.menu-container .last-menu-sgs .option-img-title img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transform: translateY(5px)
+}
+
+.menu-container .last-menu-sgs .copyright-desc {
+    margin: 5px 20px;
+    width: 85%;
+    display: inline-block;
+}
+
+.menu-container .last-menu-sgs .copyright-desc a {
+    float: left;
+    margin: 2px auto;
+    padding: 0 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #555;
+}
+
+.menu-container .last-menu-sgs .copyright-in-footer {
+    margin: 20px auto;
+    display: inline-block;
+}
+.menu-container .last-menu-sgs .copyright-in-footer p {
+    color: rgb(126, 126, 126);
+    margin: 0 20px;
+    font-size: 13px;
+}
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.lastPartMenu {
+    display: none;
+}
+
+.menuContainerCloseed {
+    width: 75px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 75px;
+    margin: 15px auto;
+}
+
+.menu-class .removeScrollBar::-webkit-scrollbar {
+    width: 0;
+}
+
+.menu-class .openCloseMenu #home {
+    background: #FFF;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: #F1F1F1;
+}
+.menu-class .openCloseMenu #home span {
+    display: block;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-size: 10px;
+    display: block;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(-1px)
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    border-top: none;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+article {
+    position: relative;
+    margin: 6em 6.6em;
+    width: 90%;
+}
+
+article .Recommended-text {
+    font-size: 19px;
+    font-weight: 600;
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.all-videos-class {
+    margin: 0 9em;
+}
+
+
+.videos-container-class {
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    margin: 30px auto;
+}
+
+.videos-container-class .video-container {
+    width: 252px;
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.videos-container-class .video-container-by-js {
+    width: 290px;
+}
+
+.all-videos-class-by-js {
+    margin: 0;
+}
+
+
+.videos-container-class .video-container:hover > .video-settings {
+    display: block;
+}
+
+
+.video-container .video-img {
+    width: 100%;
+    height: 160px;
+}
+
+.video-container .video-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container .video-settings {
+    position: absolute;
+    width: 50%;
+    top: 5px;
+    right: 5px;
+    display: none;
+}
+
+.video-container .video-settings .setting-one {
+    float: right;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #000;
+    transition: .2s;
+    width: 20px;
+}
+
+.video-container .video-settings .setting-one .setting-one-img {
+    position: relative;
+    float: right;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #FFF;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.video-container .video-settings .setting-one:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: #000;
+    right: 0;
+    top: 0;
+}
+.video-container .video-settings .setting-one .setting-one-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container .video-settings .setting-one .setting-one-name {
+    display: none;
+    width: 125px;
+    position: absolute;
+    margin: 2px auto;
+    left: 7px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.video-container .video-settings .setting-one span {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.video-container .video-settings .setting-one:hover > .setting-one-name {
+    display: block;
+    transition: 2s;
+}
+
+.video-container .video-settings .setting-one:hover {
+    width: 8em;
+}
+
+.video-container .video-settings .setting-one-by-js:hover {
+    width: 5em;
+}
+
+
+.video-container .video-settings .setting-two {
+    float: right;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #000;
+    transition: .2s;
+    width: 20px;
+}
+
+.video-container .video-settings .setting-two .setting-two-img {
+    position: relative;
+    float: right;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.video-container .video-settings .setting-two .setting-two-img img {
+    width: 65px;
+    height: 45px;
+    margin: -13px -23px
+}
+
+
+.video-container .video-settings .setting-two .setting-two-img-by-js img {
+    width: 20px;
+    height: 20px;
+    margin: -5px 0
+}
+
+.video-container .video-settings .setting-two:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: #000;
+    right: 0;
+    top: 0;
+}
+
+.video-container .video-settings .setting-two .setting-two-name {
+    display: block;
+    width: 120px;
+    position: absolute;
+    left: 7px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 2px auto;
+}
+
+.video-container .video-settings .setting-two span {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.video-container .video-settings .setting-two:hover > .setting-two-name {
+    transition: 2s;
+}
+
+.video-container .video-settings .setting-two:hover {
+    width: 8em;
+}
+
+.video-container .video-settings .setting-two-by-js:hover {
+    width: 5em;
+}
+
+.video-container .video-time {
+    position: absolute;
+    top: 8.5em;
+    right: 5px;
+}
+
+.video-container .video-time span {
+    padding: 2px 5px 2px 5px;
+    color: #ffffff;
+    background-color: #181818;
+    font-size: 14px;
+}
+
+.video-container .video-desc {
+    width: 93%;
+    position: relative;
+}
+
+.video-container .video-desc .channel-image {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.video-container .video-desc .channel-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.video-container .video-title a {
+    text-decoration: none;
+    color: #000;
+}
+.video-container .video-title p {
+   transform: translateX(10px) translateY(5px);
+   font-size: 14px;
+   font-weight: 600;
+   width: 100%;
+   height: 33px;
+} 
+
+.video-container .channel-name p {
+    margin: 0 50px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.video-container .video-views-date p {
+    transform: translateX(50px);
+    margin: 3px auto;
+    color: #555;
+    cursor: pointer;
+}
+
+.video-desc .add-to-queue-class {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: -28px;
+    display: none;
+}
+
+.video-desc .add-to-queue-class .add-to-queue-img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.video-desc .add-to-queue-class .add-to-queue-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    position: absolute;
+    margin: 3px -20px;
+    background-color: #FFF;
+    border-radius: 4px;
+    width: 160px;
+    padding: 8px 0 8px 0;
+    display: none;
+}
+
+.video-desc .add-to-queue-class .hideShowaddToQueue {
+    display: block;
+}
+
+.video-desc .add-to-queue-class .add-to-queue .add-to-queue-note {
+    padding: 3px 0 3px 0;
+    cursor: pointer;
+}
+
+.video-desc .add-to-queue-class .add-to-queue .add-to-queue-note:hover {
+    background: #F1F1F1;
+}
+
+.video-desc .add-to-queue-class .add-to-queue .add-to-queue-note span {
+    color: rgb(70, 69, 69);
+    display: inline-block;
+    margin: 5px auto;
+    font-size: 15px
+}
+
+.video-desc .add-to-queue-class .add-to-queue .add-to-queue-note .add-to-queue-note-img {
+    float: left;
+    width: 50px;
+    height: 20px;
+}
+
+.video-desc .add-to-queue-class .add-to-queue .add-to-queue-note .add-to-queue-note-img img {
+    width: 110px;
+    height: 55px;
+    margin: -14px -33px
+}
+
+#lastQueue {
+    right: 1.5em
+}
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    position: fixed;
+    z-index: 2;
+    right: 20px;
+    width: 400px;
+    background-color: #FFF;
+    box-shadow: 2px 0.5px 5px rgba(85, 85, 85, 0.795);
+    transition: .2s;
+    z-index: 3;
+}
+
+article .queue-added-class-by-js {
+    top: 7.5em;
+} 
+
+
+article .queue-added-class-by-js2 {
+    top: 24em;
+} 
+
+article .queue-added-class:hover {
+    box-shadow: 2px 5px 5px rgba(85, 85, 85, 0.795);
+}
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 400px;
+    height: 220px;
+}
+
+
+article .queue-added-class .queue-added-img img {
+    width: 100%;
+    height: 100%;
+}
+
+article .queue-added-class .queue-added-img:hover .queue-added-settings-class {
+    opacity: 1;
+}
+article .queue-added-class .queue-added-img .queue-added-settings-class {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+    transition: .3s;
+    opacity: 0;
+}
+
+article .queue-added-class .queue-added-img .queue-added-settings-class img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+article .queue-added-class .queue-added-img .queue-added-settings-class span:first-of-type {
+    font-size: 30px;
+    float: right;
+    color: #FFF;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+article .queue-added-class .queue-added-img .queue-added-settings-class span:last-of-type {
+    position: absolute;
+    padding: 2px 5px 2px 5px;
+    color: #ffffff;
+    font-size: 14px;
+    left: 5px;
+    bottom: 10px;
+}
+
+article .queue-added-class .queue-added-title {
+    background-color: #FFF;
+    padding: 10px 0 20px 0;
+    width: 400px;
+    border-bottom: solid 1px #F1F1F1
+}
+
+.queue-added .up-down-btn {
+    position: absolute;
+    right: 15px;
+    margin: -50px auto;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 2;
+}
+
+.queue-added .up-down-btn img {
+    width: 15px;
+    height: 15px;
+    transform: rotate(-90deg)
+}
+
+article .queue-added-class .queue-added-title p {
+    margin: 0 10px;
+    color: #000;
+}
+
+article .queue-added-class .queue-added-title span {
+    font-size: 13px;
+    display: block;
+    color: #555;
+    margin: 5px 10px
+}
+
+.queue-added-class .small-queue-added-class {
+    overflow: scroll;
+}
+
+.small-queue-added-class-by-js2 {
+    height: 0;
+}
+.small-queue-added-class-by-js {
+    height: 260px;
+}
+
+.queue-added-class .small-queue-added-class::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+    background-color: #FFF;
+}
+
+.queue-added-class .small-queue-added-class::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 188, 188)
+}
+
+.queue-added-class .small-queue-added-class .small-queue-added {
+    display: flex;
+    margin: 5px auto;
+}
+
+.queue-added-class .small-queue-added-class .small-queue-added:hover {
+    background-color: #F1F1F1;
+}
+
+.small-queue-added-class .small-queue-added-img {
+    width: 100px;
+    height: 70px;
+    position: relative;
+}
+
+.small-queue-added-class .small-queue-added-img img {
+    width: 100px;
+    height: 70px;
+}
+
+.small-queue-added-class .small-queue-added-img span {
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 45px;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #181818;
+    font-size: 14px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 290px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name p {
+    display: block;
+    margin: 0 10px;
+    color: #000;
+    font-size: 13px
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name span {
+    display: block;
+    margin: 4px 10px;
+    color: #555;
+    font-size: 15px
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.small-queue-added-titel-channel-name:hover > .delete-class ,
+.small-queue-added-img img:hover > .delete-class {
+    display: block
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class img {
+    width: 17px;
+    height: 18px;
+}
+
+.delete-queue-class {
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    display: none;
+}
+
+.delete-queue-class .delete-queue-note {
+    background-color: #FFF;
+    margin: 15em auto;
+    display: inline-block;
+    width: 335px;
+    padding: 5px 0 5px 0;
+}
+
+.delete-queue-class .delete-queue-note p:first-of-type {
+    text-align: left;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.delete-queue-class .delete-queue-note p:last-of-type {
+    text-align: left;
+    color: #555;
+    font-size: 15px;
+    margin: 20px 20px;
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns {
+    padding: 14px 0 10px 0;
+    border-top: solid 1px rgb(207, 207, 207);
+    text-align: right;
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 600;
+    transform: translateX(-20px);
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns #cancel {
+    color: #555;
+    transform: translateX(-35px);
+    transition: .2s;
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns #cancel:active {
+    background:#F1F1F1;
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns #close-player {
+    color: #065fd4;
+    transition: .2s;
+}
+
+.delete-queue-class .delete-queue-note .queue-delete-btns #close-player:active {
+    background: #F1F1F1;
+}
+
+/* =============== { END QUEUE CLASS } ===============*/
+
+article .spinner-class {
+    margin: 40px auto;
+}
+
+article .spinner-class .spinner {
+    margin: 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid 3px rgb(145, 144, 144);
+    border-right: solid 3px transparent;
+    animation: rotate 1s linear infinite;
+}
+
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+article .video-container-hidden {
+    display: none;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+
+/* =============== { HIDE FOOTER ON LARGE DEVICES } ===============*/
+
+.small-devices-footer {
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+
+/* ================ { END } =================*/
