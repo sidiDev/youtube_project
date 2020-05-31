@@ -1,0 +1,1650 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============== { START HEADER } ===============*/
+
+.header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+/* =============== { END HEADER } ===============*/
+
+/* =============== { START SING IN CLASS } ===============*/
+
+.settings-class {
+    display: flex;
+    flex-flow: row-reverse;
+    float: right;
+    padding: 10px;
+}
+
+header .sign-in-class {
+    float: right;
+    width: 20px;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 0 8px 0 8px;
+}
+
+
+.sign-in-class .sign-in .sign-in-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #065fd4;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.sign-in-class .sign-in .sign-in-icon img {
+    width: 150%;
+    height: 100%;
+    margin: 0 0 0 -7px;
+}
+
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.settings-class .settings {
+    float: right;
+}
+
+.settings-class .settings .first-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.first-setting .frst-sg-btn {
+    display: inline-block;
+    margin: 0 10px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out; 
+}
+
+.first-setting .frst-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    width: 25px;
+    height: 20px;
+    margin: 10px 0 0 7px;
+    display: inline-block;
+}
+
+.first-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+    right: -15px;
+    top: 55px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.settings-class .frst-sg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings-class .sing-in-settings {
+    display: none;
+}
+
+.settings-class .frst-sg-box {
+    position: absolute;
+    background-color: #FFF;
+    width: 280px;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+    right: 20px;
+    margin: 0 3em;
+    z-index: 2;
+}
+
+.frst-sg-scrolling {
+    height: 580px;
+    overflow: scroll;
+}
+
+.frst-sg-scrolling::-webkit-scrollbar {
+    width: 8px;
+}
+
+.frst-sg-scrolling::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(189, 189, 189)
+}
+
+.user-account-containers {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.user-account-containers .user-profil {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #065fd4;
+}
+
+.user-account-containers .user-profil span {
+    display: block;
+    color: #FFF;
+    font-size: 27px;
+    margin: 1px 10px;
+}
+
+.user-account-containers .user-details {
+    margin: 0 10px;
+}
+
+.user-account-containers .user-details span {
+    display: block;
+}
+
+.user-account-containers .user-details span:first-child {
+    font-weight: 600;
+}
+
+.user-account-containers .user-details span:last-of-type {
+    margin: 5px auto;
+    font-size: 14px;
+}
+
+.user-account-containers .user-details a {
+    font-size: 14px;
+    color: #065fd4;;
+}
+
+.first-setting .sg-box {
+    display: none;
+}
+
+
+.frst-sg-box .frst-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.frst-sg-box .frst-sg .sg-option {
+    display: inline;
+}
+.frst-sg-box .frst-sg .sg-option .option-img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.frst-sg-box .frst-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.frst-sg-box .frst-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.frst-sg-box .frst-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.frst-sg-box .frst-sg .sg-option .option-title .arrow-right {
+    float: right;
+    width: 16px;
+    height: 14px;
+    margin: 7px 5px 0 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.frst-sg-box .frst-sg .sg-option .option-title .arrow-right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* =============== { END FIRST SETTING SIGN IN } ===============*/
+
+/* =============== { SATRT FIRST SETTING } ===============*/
+
+.first-setting .fst-sg {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 3em;
+    background-color: #FFF;
+    width: 390px;
+    height: 520px;
+    border: solid 1px #F1F1F1;
+    border-top: transparent;
+}
+
+.fst-sg .Notifications-sgs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    border-bottom: solid 2px #F1F1F1;
+}
+
+.fst-sg .Notifications-sgs label {
+    float: left;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fst-sg .Notifications-sgs img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fst-sg .notifications-note {
+    margin: 7em auto;
+    width: 80%;
+    text-align: center;
+}
+
+.fst-sg .notifications-note img {
+    width: 100px;
+    height: 100px;
+}
+
+.fst-sg .notifications-note p:first-of-type {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(49, 48, 48); 
+}
+
+.fst-sg .notifications-note p:last-of-type {
+    line-height: 25px;
+    color: #555;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.settings-class .settings .second-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.second-setting .sd-sg-btn {
+    display: inline-block;
+    margin: 0 5px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out; 
+}
+
+.second-setting .sd-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    margin: 10px 0 0 9px;
+}
+
+.second-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: -18px;
+    top: 60px;
+    display: block;
+    width: 90px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default
+}
+
+
+.settings-class .settings .second-setting .sd-sg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    position: absolute;
+    background: #FFF;
+    width: 270px;
+    left: -45px;
+    margin: 7px auto;
+    z-index: 2;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+}
+
+.settings-class .settings .second-setting .sg-box {
+    display: none;
+}
+.settings .second-setting .sd-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.settings .second-setting .sd-sg .sg-option {
+    display: inline;
+}
+.settings .second-setting .sd-sg .sg-option .option-img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.settings .second-setting .sd-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.settings-class .settings .firth-setting {
+    float: right;
+    height: 25px;
+    position: relative;
+}
+
+.firth-setting .fth-sg-btn {
+    display: inline-block;
+    margin: 0 10px  0 0;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.firth-setting .fth-sg-btn:active {
+    background: rgb(235, 234, 234);
+}
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 50px;
+    height: 38px;
+    display: inline-block;
+    margin: 2px -6px;
+}
+
+.firth-setting span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: -45px;
+    top: 60px;
+    display: block;
+    width: 152px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: default
+}
+
+
+.settings-class .settings .firth-setting .fth-sg-img img {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    position: absolute;
+    background: #FFF;
+    width: 200px;
+    margin: 1px auto;
+    z-index: 2;
+    border-right: solid 2px #F1F1F1;
+    border-left: solid 2px #F1F1F1;
+    border-bottom: solid 2px #F1F1F1;
+}
+
+.settings-class .settings .firth-setting .sg-box {
+    display: none;
+}
+.settings .second-setting .fth-sg {
+    margin-bottom: 20px;
+    padding: 0 5px 0 10px;
+}
+
+.settings .firth-setting .fth-sg .sg-option {
+    display: inline;
+}
+.settings .firth-setting .fth-sg .sg-option .option-img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-title {
+    margin: 15px;
+    display: block;
+}
+
+.settings .firth-setting .fth-sg .sg-option .option-title p {
+    display: inline-block;
+    margin: 5px 0 0 25px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class-intro {
+    display: none;
+}
+
+header .search-class .search {
+    margin: 15px 8em; /* in responsive will be margin: 15px */
+    float: right;
+    display: flex;
+    width: 45%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+.back-btn {
+    display: none;
+}
+
+header .search-class .search input[type="text"] {
+    float: left;
+    direction: ltr;
+    padding: 5px;
+    width: 90%;
+    border: none;
+}
+
+header .search-class .search .search-btn {
+    background-color: #F1F1F1;
+    float: right;
+    width: 50px;
+    height: 30px;
+    border-left: solid 1px rgb(216, 215, 215);
+    user-select: none;
+    cursor: pointer;
+}
+
+
+header .search-class .search .search-btn:hover {
+    background: rgb(236, 235, 235)
+}
+
+header .search-class .search .search-btn img {
+    width: 16px;
+    height: 16px;
+    margin: 7px 20px;
+}
+
+header .search-class .search span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    right: 0;
+    top: 60px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: auto;
+    user-select: none;
+}
+
+header .search-class .search .search-btn {
+    width: 60px;
+    height: 30px;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class {
+    display: inline-block;
+}
+
+header .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+header .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+/* =============== { START MENU CLASS } ===============*/
+.menu-class {
+    position: relative;
+    z-index: 4;
+}
+
+.menus-class {
+    display: none;
+    position: relative;
+    z-index: 4;
+}
+
+.menu-class .menu-container {
+    position: fixed;
+    top: 60px;
+    background: #FFF;
+    overflow-y: scroll;
+    height: 93%;
+}
+
+.menu-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-container:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-container:hover::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(214, 211, 211);
+}
+
+.menu-container .options-class {
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.menu-container .option-class {
+    transition: .1s;
+    cursor: pointer;
+}
+
+.menu-container .options-class #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+}
+
+.menu-container .options-class #home span {
+    color: #000;
+}
+.menu-container .option-class .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.menu-container .options-class .option-img-title img {
+    width: 19px;
+    height: 20px;
+}
+
+.menu-container .options-class .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-container .options-class #home:hover {
+    background: rgb(202, 200, 200);
+}
+
+.menu-container .option-class:hover {
+    background-color: #F1F1F1;
+}
+
+.menu-container .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+.menu-container .last-menu-sgs .option-img-title img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transform: translateY(5px)
+}
+
+.menu-container .last-menu-sgs .copyright-desc {
+    margin: 5px 20px;
+    width: 85%;
+    display: inline-block;
+}
+
+.menu-container .last-menu-sgs .copyright-desc a {
+    float: left;
+    margin: 2px auto;
+    padding: 0 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #555;
+}
+
+.menu-container .last-menu-sgs .copyright-in-footer {
+    margin: 20px auto;
+    display: inline-block;
+}
+.menu-container .last-menu-sgs .copyright-in-footer p {
+    color: rgb(126, 126, 126);
+    margin: 0 20px;
+    font-size: 13px;
+}
+/* =============== { END MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.moveScrollBar {
+    height: 100%;
+    overflow: hidden;
+}
+
+.moveScrollBar::-webkit-scrollbar-thumb {
+    width: 0;
+}
+
+.menu-cover {
+    z-index: 7;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+/* =============== { START VIDEO PLAYER } ===============*/
+
+.videos-player-class {
+    margin: 5em 35px;
+    width: 60%;
+    display: inline-block;
+}
+
+.videos-player-class .video-player {
+    width: 100%;
+    height: 450px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.videos-player-class .video-player video {
+    position: relative;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.video-controls-class {
+    position: absolute;
+    top: 2.8em;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.video-controls {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    transition: .0s;
+}
+
+.video-controls .video-duration-bar {
+    margin: 0 auto;
+    width: 95%;
+    height: 3.5px;
+    background: #555;
+    cursor: pointer;
+}
+
+.video-duration-bar .moving-brogress {
+    position: relative;
+    height: 100%;
+    width: 0;
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+.video-duration-bar:hover {
+    height: 5px;
+}
+
+.video-duration-bar:hover .moving-brogress:after {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    right: 0;
+    margin: -4px -10px;
+    cursor: pointer;
+}
+
+.video-controls .buttons-controls {
+    position: absolute;
+    display: flex;
+    transform: translateY(10px) translateX(2em);
+    width: 100%;
+}
+
+.buttons-controls .play-stop-btn img {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.buttons-controls .skip-video-btn {
+    position: absolute;
+    transform: translateY(2px) translateX(3em);
+}
+
+.buttons-controls .skip-video-btn img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.buttons-controls .video-volume-btn {
+    position: absolute;
+    display: flex;
+    transform: translateY(2px) translateX(5em);
+}
+
+.buttons-controls .video-volume-btn img {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.buttons-controls .video-volume-btn:hover > .volume-bar {
+    width: 60px;
+}
+
+.buttons-controls .video-volume-btn:hover > .volume-bar .moving-vol-brogress::after {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FFF;
+    right: 0;
+    margin: -4px -10px;
+    cursor: pointer;
+}
+
+.buttons-controls .volume-bar {
+    width: 0;
+    height: 3.5px;
+    background-color: #555;
+    margin: 7px 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buttons-controls .volume-bar-by-js {
+    width: 60px;
+}
+
+.volume-bar .moving-vol-brogress {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.buttons-controls .video-duration {
+    color: #FFF;
+    display: flex;
+    margin: 3px auto;
+}
+
+.buttons-controls .video-duration span {
+    margin: 0 2px;
+    font-size: 13px;
+}
+
+.video-settings {
+    position: absolute;
+    right: 5em;
+}
+
+.video-settings img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.video-settings .video-settings-container {
+    position: absolute;
+    width: 270px;
+    margin: -15em -15.5em;
+    background: #2e2e2e;
+}
+
+.video-settings .video-settings-container-by-js {
+    display: none;
+}
+
+.options-class .video-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.options-class .video-option:hover {
+    background-color: #555;
+}
+
+.options-class .video-option span {
+    color: #F1F1F1;
+    font-size: 15px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.video-option .run-shut-option {
+    width: 40px;
+    height: 15px;
+    border-radius: 15px;
+    background: rgba(156, 156, 156, 0.514);
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.video-option .run-shut-option-by-js {
+    background-color: #FF0000;
+}
+
+.video-option .run-shut-option .run-shut {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgb(167, 167, 167);
+    margin: -3px -2px;
+    transition: .3s;
+}
+
+.video-option .run-shut-option .run-shut-by-js {
+    background-color: #F1F1F1;
+    margin: -3px 1.2em;
+}
+
+.video-opt-arrow {
+    margin: 0 13px;
+}
+
+.video-opt-arrow img {
+    width: 12px;
+    height: 12px;
+}
+
+/* hide the video controls if the video is running and show if the video paused */
+
+.video-controls-by-js {
+    bottom: -1em;
+}
+
+/* =============== { START VIDEO CONTENTS INFORMATION } ===============*/
+
+.video-info .video-title-date h1 {
+    font-size: 19px;
+}
+
+.video-info .video-title-date span {
+    color: #555;
+    float: left;
+    margin: 0 5px;
+}
+
+.video-contents-info .video-info {
+    border-bottom: solid 1px rgb(128, 127, 127);
+}
+
+.video-management {
+    display: flex;
+    justify-content: center;
+}
+
+.info-class .video-info-class {
+    text-align: right;
+}
+
+.video-info-class .like-dislike-class {
+    display: inline-block;
+    width: 120px;
+    border-bottom: solid  1.5px rgb(128, 127, 127);
+}
+
+.video-info-class .like-dislike-bar {
+    border-bottom: solid 1.5px #065fd4;
+}
+
+
+.like-dislike-class .like-video {
+    float: left;
+    color: #555;
+}
+
+.like-dislike-class .dislike-video {
+    display: inline-block;
+    height: 30px;
+    color: #555;
+}
+
+.like-dislike-class .like-video img ,
+.like-dislike-class .dislike-video img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.like-dislike-class .like-video img {
+    margin: -3px auto;
+}
+
+.like-dislike-class .dislike-video img {
+    margin: -6px auto;
+}
+
+.video-info-class .share-video,
+.video-info-class .save-video {
+    display: inline-block;
+    width: 99px;
+}
+
+.video-info-class .share-video span,
+.video-info-class .save-video span {
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.video-info-class .share-video img,
+.video-info-class .save-video img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: -3px 5px;
+}
+
+.video-info-class .more-btn {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.video-info-class .more-btn img {
+    width: 20px;
+    height: 20px;
+    margin: -5px 5px;
+}
+
+.video-contents-info .channel-info-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-info-class  .channel-info {
+    display: flex;
+    margin: 15px 0;
+}
+
+.channel-info .channel-logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.channel-info .channel-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.channel-info .channel-name-subs-sum {
+    margin: 10px 10px;
+}
+
+.channel-info .channel-name-subs-sum span {
+    display: block;
+    margin: auto;
+}
+
+.channel-info .channel-name-subs-sum span:first-of-type {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.channel-info .channel-name-subs-sum span:last-of-type {
+    font-size: 14px;
+    color: #555;
+    margin: 4px auto;
+}
+
+.sub-channel {
+    display: flex;
+    height: 35px;
+    margin: 20px 0;
+    padding: 5px;
+    position: relative;
+}
+
+.sub-channel .sub-btn {
+    padding: 10px;
+    color: #FFF;
+    background-color: rgb(221, 2, 2);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px
+}
+
+.sub-channel .sub-btn-by-js {
+    background-color: rgb(209, 209, 209);
+    color: #555;
+}
+
+.bell-type-by-js {
+    padding-left: 15px;
+    display: none;
+}
+
+.sub-channel .bell-type {
+    padding-left: 15px;
+}
+
+.sub-channel .bell-type img {
+    width: 20px;
+    height: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.sub-channel .list-bell {
+    position: absolute;
+    margin: 2.5em 6.5em;
+    background: #FFF;
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 3px rgba(78, 78, 78, 0.336);
+}
+
+.sub-channel .list-bell-by-js {
+    display: none;
+}
+
+.list-bell .bell-option {
+    padding: 7px;
+    cursor: pointer;
+}
+
+.list-bell .bell-option:hover {
+    padding: 7px;
+    background: rgb(228, 228, 228);
+}
+
+.list-bell .bell-option:nth-child(2) {
+    background: rgb(228, 227, 227);
+}
+
+.list-bell .bell-option:nth-child(2):hover {
+    background: rgb(219, 219, 219);
+}
+
+.list-bell .bell-option img {
+    width: 20px;
+    height: 20px;
+    margin: -2px 0;
+}
+
+.list-bell .bell-option span {
+    color: #555;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.unsubscribe-class {
+    top: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.534);
+}
+
+.unsubscribe-class .unsubscribe-box {
+    text-align: left;
+    display: inline-block;
+    margin: 13em auto;
+    width: 270px;
+    background: #FFF;
+}
+
+.unsubscribe-class .unsubscribe-box span {
+    color: #555;
+    font-size: 15px;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 20px;
+}
+
+.unsubscribe-class .unsubscribe-box .unsubscribe-btn {
+    text-align: right;
+    padding: 10px;
+    border-top: solid 1px rgb(182, 182, 182);  
+}
+
+.unsubscribe-class .unsubscribe-box .unsubscribe-btn button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.unsubscribe-btn .cancel,
+.unsubscribe-btn .unsubscribe {
+    color: #555;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.unsubscribe-btn .unsubscribe {
+    color: #065fd4;
+}
+
+.unsubscribe-btn .cancel:active,
+.unsubscribe-btn .unsubscribe:active {
+    background: #F1F1F1;
+}
+
+.unsubscribe-class-by-js {
+    display: none;
+}
+
+.video-description-class {
+    margin: -20px 0;
+    border-bottom: solid 1px #868686;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-description-class .video-description,
+.video-description-fore {
+    margin: 10px 4em;
+    font-size: 14px;
+}
+
+.video-description-by-js {
+    display: none;
+}
+
+.video-description-class span {
+    position: absolute;
+    bottom: 15px;
+    margin: 0 5em;
+    display: inline-block;
+    cursor: pointer;
+    color: #555;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* =============== { END VIDEO CONTENTS INFORMATION } ===============*/
+
+/* =============== { START COMMENTS SYSTEM } ===============*/
+
+.comments-system-class {
+    margin: -50px 35px;
+    width: 60%;
+}
+
+.comments-system-class .user-logo-comments-input {
+    display: flex;
+}
+
+.user-logo-comments-input .user-logo {
+    width: 40px;
+    height: 40px;
+    background: #065fd4;
+    border-radius: 50%;
+}
+
+.user-logo-comments-input .user-logo span {
+    font-size: 25px;
+    color: #FFF;
+    display: block;
+    margin: 5px 12px;
+}
+
+.user-logo-comments-input .comments-input {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 3px 15px;
+    height: auto;
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+
+.user-logo-comments-input .comments-input-brogress {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.user-logo-comments-input .comments-input-bar {
+    transition: .3s;
+}
+
+.user-logo-comments-input .comments-input-bar-by-js {
+    width: 0;
+    height: 100%;
+    background: #000;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.user-logo-comments-input .comments-input input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 15px;
+    background: transparent;
+}
+
+.sends-system {
+    margin: 20px 0;
+    display: flex;
+}
+
+.sends-system .send-info {
+    margin: 0 4em;
+}
+
+.sends-system .send-info span {
+    color: #555;
+    font-size: 13px;
+}
+
+.sends-system .send-cancel-btn {
+    display: flex;
+}
+
+.sends-system .send-cancel-btn button {
+    border: none;
+    outline: none;
+    margin: 0 7px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.sends-system .send-cancel-btn .cancel {
+    background: transparent;
+    color: #555;
+    cursor: pointer;
+}
+
+.sends-system .send-cancel-btn .cancel:active {
+    background: rgb(194, 194, 194);
+}
+
+
+.sends-system .send-cancel-btn .comment {
+    background: rgba(85, 85, 85, 0.493);
+    color: #FFF;
+    cursor: default;
+}
+
+.sends-system .send-cancel-btn .comment-by-js {
+    background: #065fd4;
+    cursor: pointer;
+}
+
+.sends-system-by-js {
+    display: none;
+}
+
+.users-comments-place {
+    margin: 2em 0;
+}
+
+.users-comments-place .comment-place {
+    display: flex;
+}
+
+.users-comments-place .comment-place .user-logo {
+    width: 40px;
+    height: 40px;
+    background: #065fd4;
+    border-radius: 50%;
+}
+
+.users-comments-place .comment-place .user-logo span {
+    font-size: 25px;
+    color: #FFF;
+    display: block;
+    margin: 5px 12px;
+}
+
+.users-comments-place .comment-info {
+    margin: 1px 25px;
+}
+
+.comment-info .user-name-comment-date {
+    display: flex;
+}
+
+.comment-info .user-name-comment-date span:first-of-type {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comment-info .user-name-comment-date span:last-of-type {
+    color: #555;
+    font-size: 13px;
+    margin: 1px 3px; 
+}
+
+.comment-info .user-comment {
+    margin: 5px 0;
+}
+
+.comment-info .user-comment span {
+    font-size: 15px;
+}
+
+.comment-info .like-dislike-comment {
+    display: flex;
+    margin: 10px 0;
+}
+
+.comment-info .like-dislike-comment .like-comment {
+    display: flex;
+}
+
+.comment-info .like-dislike-comment .like-comment img,
+.comment-info .like-dislike-comment .dislike-comment img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.comment-info .like-dislike-comment .dislike-comment {
+    margin: 0 15px;
+}
+
+.comment-info .like-dislike-comment .dislike-comment img {
+    margin: 2px 0;
+}
+
+.comment-info .like-dislike-comment .like-comment span,
+.comment-info .like-dislike-comment .dislike-comment span {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.comment-info .like-dislike-comment .dislike-comment span {
+    display: inline-block;
+    transform: translateY(-4px);
+}
+
+.comment-info .reply-comment span {
+    display: inline-block;
+    margin: 0 10px;
+    color:#555;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* =============== { END COMMENTS SYSTEM } ===============*/
+
+/* =============== { START VIDEOS PLAYLIST } ===============*/
+
+.videos-playlist {
+    width: 34%;
+    float: right;
+    margin: 5em 0;
+}
+
+.videos-playlist .playlist-contents {
+    display: flex;
+    margin: 5px 0;
+}
+
+.playlist-contents .video-playlist img {
+    width: 180px;
+    height: 110px;
+}
+
+.playlist-contents .video-playlist-info {
+    margin: 0 5px;
+    width: 48%;
+}
+
+.playlist-contents .video-playlist-info h1 {
+    font-size: 14px;
+}
+
+.playlist-contents .video-playlist-info span {
+    display: block;
+    color: #555;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 0
+}
+
+/* =============== { END VIDEOS PLAYLIST } ===============*/

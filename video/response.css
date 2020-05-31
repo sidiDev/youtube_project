@@ -1,0 +1,1044 @@
+/* =============== { START RESPONSE ON SMALL DEVICES } ===============*/
+
+@media screen and (min-width: 300px) and (max-width: 454px) {
+
+header {
+    height: 50px;
+}
+
+/* =============== { START SING IN CLASS } ===============*/
+
+.settings-class {
+    float: right;
+    padding-top: 6px;
+}
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.settings-class .frst-sg-box {
+    width: 280px;
+    right: -2.5em;
+    margin: 2.5em 3em;
+}
+
+.frst-sg-scrolling {
+    height: 450px;
+}
+
+.first-setting .fst-sg {
+    top: 2.5em;
+    right: -4em;
+    width: 290px;
+    height: 500px;
+}
+
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.second-setting {
+    display: none;
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.firth-setting {
+    display: none;
+}
+
+/* =============== { END FIRTH SETTING} ===============*/
+    
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background-color: #FFF;
+    height: 50px;
+    display: none;
+}
+
+header .search-class .search {
+    margin: 10px;
+    width: 75%;
+}
+
+
+header .search-class .search input[type="text"] {
+    width: 95%;
+}
+
+header .search-class .search .search-btn {
+    width: 50px;
+    height: 30px;
+}
+
+header .search-class .search .search-btn img {
+    margin: 6px 20px;
+}
+
+.search-class .back-btn {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 13px 17px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.search-class .back-btn-img {
+    width: 30px;
+}
+
+.search-class .back-btn img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+header .search-class-intro {
+    position: relative;
+    margin: 17px 2px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+
+header .search-class-intro img {
+    width: 16px;
+    height: 16px;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 5px 0  0 5px;
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    margin: 5px -15px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+/* =============== { START VIDEO PLAYER } ===============*/
+
+.videos-player-class {
+    margin: 5em auto;
+    width: 100%;
+}
+
+.videos-player-class .video-player {
+    width: 95%;
+    height: 490px auto;
+    margin: 0 auto;
+}
+.video-controls .video-duration-bar {
+    width: 90%;
+}
+
+.video-controls-class {
+    top: 0.5em;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons-controls .video-volume-btn img {
+    display: none;
+}
+
+.buttons-controls .volume-bar {
+    display: none;
+}
+
+.buttons-controls .video-duration {
+    margin: 0 auto;
+}
+
+.video-settings {
+    right: 4em;
+}
+
+.video-settings img {
+    width: 18px;
+    height: 18px;
+}
+
+.video-settings .video-settings-container {
+    width: 250px;
+    margin: -9em -15em;
+}
+
+.options-class .video-option {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.options-class .video-option span {
+    font-size: 10px;
+}
+
+.video-opt-arrow img {
+    width: 9px;
+    height: 9px;
+}
+
+.video-option .run-shut-option {
+    width: 30px;
+    height: 10px;
+}
+
+.video-option .run-shut-option .run-shut {
+    width: 17px;
+    height: 17px;
+}
+
+.video-option .run-shut-option .run-shut-by-js {
+    margin: -3px 1.2em;
+}
+
+.video-controls-by-js {
+    bottom: 3em;
+}
+
+.video-title-date {
+    height: 65px;
+    margin: 10px 10px;
+}
+
+.video-info .video-title-date h1 {
+    font-size: 15px;
+}
+
+.sub-channel .list-bell {
+    position: absolute;
+    z-index: 2;
+    margin: 2.5em -3em;
+    background: #FFF;
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.info-class .video-info-class {
+    text-align: right;
+    margin: 0 5px;
+}
+
+.video-management {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.video-info-class .like-dislike-class {
+    width: 95px;
+}
+
+.like-dislike-class .like-video img ,
+.like-dislike-class .dislike-video img {
+    width: 16px;
+    height: 16px;
+}
+
+.like-dislike-class .like-video span ,
+.like-dislike-class .dislike-video span {
+    font-size: 14px; 
+}
+
+.like-dislike-class .dislike-video {
+    float: right;
+}
+
+.video-info-class .share-video,
+.video-info-class .save-video {
+    width: 78px;
+}
+
+.video-info-class .save-video {
+    width: 65px;
+}
+
+.video-info-class .share-video img,
+.video-info-class .save-video img {
+    width: 16px;
+    height: 16px;
+    margin: -3px 1px;
+}
+
+.video-info-class .more-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.video-info-class .more-btn img {
+    width: 17px;
+    height: 17px;
+    margin: -5px 2px;
+}
+
+.video-description-class .video-description,
+.video-description-fore {
+    margin: 10px 10px;
+}
+
+
+/* =============== { END VIDEO PLAYER } ===============*/
+
+/* =============== { START VIDEOS PLAYLIST } ===============*/
+
+.videos-playlist {
+    width: 95%;
+    float: none;
+    margin: 2px auto;
+}
+
+.playlist-contents .video-playlist img {
+    width: 130px;
+    height: 125px;
+}
+
+.playlist-contents .video-playlist-info {
+    margin: 0 5px;
+    width: 59%;
+}
+
+
+/* =============== { END VIDEOS PLAYLIST } ===============*/
+
+
+/* =============== { START COMMENTS SYSTEM } ===============*/
+
+.comments-system-class {
+    margin: 50px 5px;
+    width: 95%;
+}
+
+.user-logo-comments-input .comments-input input[type="text"] {
+    width: 95%;
+}
+
+.send-system {
+    display: block;
+}
+
+.sends-system .send-info {
+    margin: 0 1em;
+}
+
+.sends-system .send-cancel-btn {
+    margin: 5px 1px;
+}
+
+/* =============== { END COMMENTS SYSTEM } ===============*/
+
+
+}
+
+/* =============== { END RESPONSE ON SMALL DEVICES } ===============*/
+
+/* =============== { START RESPONSE ON MEDIAN DEVICES } ===============*/
+
+@media screen and (min-width: 455px) and (max-width: 700px) {
+
+    header {
+        height: 50px;
+    }
+    
+    /* =============== { START SING IN CLASS } ===============*/
+    
+    .settings-class {
+        float: right;
+        padding-top: 6px;
+    }
+    
+    /* =============== { END SING IN CLASS } ===============*/
+    
+    /* =============== { START FIRST SETTING } ===============*/
+    
+    .settings-class .frst-sg-box {
+        width: 280px;
+        right: -2.5em;
+        margin: 2.5em 3em;
+    }
+    
+    .frst-sg-scrolling {
+        height: 450px;
+    }
+    
+    .first-setting .fst-sg {
+        top: 2.5em;
+        right: -4em;
+        width: 290px;
+        height: 500px;
+    }
+    
+    
+    /* =============== { END FIRST SETTING } ===============*/
+     
+    /* =============== { START SEARCH CLASS } ===============*/
+    
+    header .search-class {
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        background-color: #FFF;
+        height: 50px;
+        display: none;
+    }
+    
+    header .search-class .search {
+        margin: 10px;
+        width: 75%;
+    }
+    
+    
+    header .search-class .search input[type="text"] {
+        width: 95%;
+    }
+    
+    header .search-class .search .search-btn {
+        width: 50px;
+        height: 30px;
+    }
+    
+    header .search-class .search .search-btn img {
+        margin: 6px 20px;
+    }
+    
+    .search-class .back-btn {
+        position: relative;
+        display: block;
+        float: left;
+        margin: 13px 17px;
+        width: 10px;
+        height: 20px;
+        cursor: pointer;
+    }
+    
+    
+    .search-class .back-btn-img {
+        width: 30px;
+    }
+    
+    .search-class .back-btn img {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+    }
+    
+    header .search-class-intro {
+        position: relative;
+        margin: 17px 2px;
+        float: right;
+        cursor: pointer;
+        display: block;
+    }
+    
+    header .search-class-intro img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    /* =============== { END SEARCH CLASS } ===============*/
+    
+    /* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    
+    header .logo-menu-btn-class .menu-btn-class {
+        margin: 5px 0  0 5px;
+    }
+    
+    header .logo-menu-btn-class .menu-logo-title {
+        margin: 5px -15px;
+    }
+    
+    /* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    /* =============== { START VIDEO PLAYER } ===============*/
+    
+    .videos-player-class {
+        margin: 5em auto;
+        width: 100%;
+    }
+
+    .videos-player-class .video-player {
+        width: 95%;
+        height: 490px auto;
+        margin: 0 auto;
+    }
+    
+    .video-controls-class {
+        top: 0.4em;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .buttons-controls .video-duration {
+        margin: 0 auto;
+    }
+
+    .video-management {
+        text-align: right;
+    }
+
+    .video-title-date {
+        width: 90%;
+    }
+    
+    .video-controls-by-js {
+        bottom: 3em;
+    }
+    
+    .video-title-date {
+        height: 65px;
+        margin: 10px 15px;
+    }
+    
+    .video-info .video-title-date h1 {
+        font-size: 15px;
+    }
+    
+    .sub-channel .list-bell {
+        position: absolute;
+        z-index: 2;
+        margin: 2.5em -3em;
+        background: #FFF;
+        width: 170px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+.info-class .video-info-class {
+    text-align: left;
+    margin: 0 15px;
+}
+
+.video-management {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.video-info-class .like-dislike-class {
+    width: 95px;
+}
+
+.like-dislike-class .like-video img ,
+.like-dislike-class .dislike-video img {
+    width: 16px;
+    height: 16px;
+}
+
+.like-dislike-class .like-video span ,
+.like-dislike-class .dislike-video span {
+    font-size: 14px; 
+}
+
+.like-dislike-class .dislike-video {
+    float: right;
+}
+
+.video-info-class .share-video,
+.video-info-class .save-video {
+    width: 78px;
+}
+
+.video-info-class .save-video {
+    width: 65px;
+}
+
+.video-info-class .share-video img,
+.video-info-class .save-video img {
+    width: 16px;
+    height: 16px;
+    margin: -3px 1px;
+}
+
+.video-info-class .more-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.video-info-class .more-btn img {
+    width: 17px;
+    height: 17px;
+    margin: -5px 2px;
+}
+
+.channel-info {
+    transform: translateX(15px);
+}
+
+.video-description-class .video-description,
+.video-description-fore {
+    margin: 10px 10px;
+}
+    
+    
+    /* =============== { END VIDEO PLAYER } ===============*/
+    
+    /* =============== { START VIDEOS PLAYLIST } ===============*/
+    
+    .videos-playlist {
+        width: 95%;
+        float: none;
+        margin: 2px auto;
+    }
+    
+    .playlist-contents .video-playlist img {
+        width: 190px;
+        height: 110px;
+    }
+    
+    .playlist-contents .video-playlist-info {
+        margin: 0 5px;
+        width: 59%;
+    }
+    
+    
+    /* =============== { END VIDEOS PLAYLIST } ===============*/
+    
+    
+    /* =============== { START COMMENTS SYSTEM } ===============*/
+    
+    .comments-system-class {
+        margin: 50px 15px;
+        width: 95%;
+    }
+    
+    .user-logo-comments-input .comments-input input[type="text"] {
+        width: 95%;
+    }
+    
+    .send-system {
+        display: block;
+    }
+    
+    .sends-system .send-info {
+        margin: 0 3em;
+    }
+    
+    .sends-system .send-cancel-btn {
+        margin: 10px 2em;
+    }
+    
+    /* =============== { END COMMENTS SYSTEM } ===============*/
+    
+    
+    }
+    
+    /* =============== { END RESPONSE ON MEDIAN DEVICES } ===============*/
+
+
+
+/* =============== { START RESPONSE ON MEDIAN DEVICES } ===============*/
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+
+    header {
+        height: 50px;
+    }
+    
+    /* =============== { START SING IN CLASS } ===============*/
+    
+    .settings-class {
+        float: right;
+        padding-top: 6px;
+    }
+    
+    /* =============== { END SING IN CLASS } ===============*/
+    
+    /* =============== { START FIRST SETTING } ===============*/
+    
+    .settings-class .frst-sg-box {
+        width: 280px;
+        right: -2.5em;
+        margin: 2.5em 3em;
+    }
+    
+    .frst-sg-scrolling {
+        height: 450px;
+    }
+    
+    .first-setting .fst-sg {
+        top: 2.5em;
+        right: -4em;
+        width: 290px;
+        height: 500px;
+    }
+    
+    
+    /* =============== { END FIRST SETTING } ===============*/
+     
+    /* =============== { START SEARCH CLASS } ===============*/
+    
+    
+header .search-class .search {
+    margin: 15px 0;
+    float: right;
+    display: flex;
+    width: 40%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+    /* =============== { END SEARCH CLASS } ===============*/
+    
+    /* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    
+    header .logo-menu-btn-class .menu-btn-class {
+        margin: 5px 0  0 5px;
+    }
+    
+    header .logo-menu-btn-class .menu-logo-title {
+        margin: 5px -15px;
+    }
+    
+    /* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    /* =============== { START VIDEO PLAYER } ===============*/
+    
+    .videos-player-class {
+        margin: 5em auto;
+        width: 100%;
+    }
+
+    .videos-player-class .video-player {
+        width: 95%;
+        height: 490px auto;
+        margin: 0 auto;
+    }
+    
+    .video-controls-class {
+        top: 0.4em;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .buttons-controls .video-duration {
+        margin: 0 auto;
+    }
+
+    .video-management {
+        text-align: right;
+    }
+
+    .video-controls-by-js {
+        bottom: 3em;
+    }
+    
+    .video-title-date {
+        height: 65px;
+        margin: 10px 25px;
+    }
+    
+    .video-info .video-title-date h1 {
+        font-size: 15px;
+    }
+    
+    .sub-channel .list-bell {
+        position: absolute;
+        z-index: 2;
+        margin: 2.5em -3em;
+        background: #FFF;
+        width: 170px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+.info-class .video-info-class {
+    text-align: left;
+    margin: 0 25px;
+}
+
+.video-management {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.video-info-class .like-dislike-class {
+    width: 95px;
+}
+
+.like-dislike-class .like-video img ,
+.like-dislike-class .dislike-video img {
+    width: 16px;
+    height: 16px;
+}
+
+.like-dislike-class .like-video span ,
+.like-dislike-class .dislike-video span {
+    font-size: 14px; 
+}
+
+.like-dislike-class .dislike-video {
+    float: right;
+}
+
+.video-info-class .share-video,
+.video-info-class .save-video {
+    width: 78px;
+}
+
+.video-info-class .save-video {
+    width: 65px;
+}
+
+.video-info-class .share-video img,
+.video-info-class .save-video img {
+    width: 16px;
+    height: 16px;
+    margin: -3px 1px;
+}
+
+.video-info-class .more-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.video-info-class .more-btn img {
+    width: 17px;
+    height: 17px;
+    margin: -5px 2px;
+}
+
+.channel-info {
+    transform: translateX(15px);
+}
+
+.video-description-class .video-description,
+.video-description-fore {
+    margin: 10px 10px;
+}
+    
+    
+    /* =============== { END VIDEO PLAYER } ===============*/
+    
+    /* =============== { START VIDEOS PLAYLIST } ===============*/
+    
+    .videos-playlist {
+        width: 95%;
+        float: none;
+        margin: 2px auto;
+    }
+    
+    .playlist-contents .video-playlist img {
+        width: 190px;
+        height: 110px;
+    }
+    
+    .playlist-contents .video-playlist-info {
+        margin: 0 5px;
+        width: 59%;
+    }
+    
+    
+    /* =============== { END VIDEOS PLAYLIST } ===============*/
+    
+    
+    /* =============== { START COMMENTS SYSTEM } ===============*/
+    
+    .comments-system-class {
+        margin: 50px 15px;
+        width: 95%;
+    }
+    
+    .user-logo-comments-input .comments-input input[type="text"] {
+        width: 95%;
+    }
+    
+    .send-system {
+        display: block;
+    }
+    
+    .sends-system .send-info {
+        margin: 0 3em;
+    }
+    
+    .sends-system .send-cancel-btn {
+        margin: 10px 2em;
+    }
+    
+    /* =============== { END COMMENTS SYSTEM } ===============*/
+    
+    
+    }
+    
+    /* =============== { END RESPONSE ON MEDIAN DEVICES } ===============*/
+
+/* 1366px is my screen size */
+
+/* =============== { START RESPONSE ON MEDIAN DEVICES } ===============*/
+
+@media screen and (min-width: 901px) and (max-width: 1209px) {
+    
+    header {
+        height: 50px;
+    }
+    
+    /* =============== { START SING IN CLASS } ===============*/
+    
+    .settings-class {
+        float: right;
+        padding-top: 6px;
+    }
+    
+    /* =============== { END SING IN CLASS } ===============*/
+    
+    /* =============== { START FIRST SETTING } ===============*/
+    
+    .settings-class .frst-sg-box {
+        width: 280px;
+        right: -2.5em;
+        margin: 2.5em 3em;
+    }
+    
+    .frst-sg-scrolling {
+        height: 450px;
+    }
+    
+    .first-setting .fst-sg {
+        top: 2.5em;
+        right: -4em;
+        width: 290px;
+        height: 500px;
+    }
+    
+    
+    /* =============== { END FIRST SETTING } ===============*/
+     
+    /* =============== { START SEARCH CLASS } ===============*/
+    
+    
+header .search-class .search {
+    margin: 15px 0;
+    float: right;
+    display: flex;
+    width: 55%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+header .search-class .search .search-btn {
+    width: 60px;
+    height: 30px;
+}
+
+    /* =============== { END SEARCH CLASS } ===============*/
+    
+    /* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    
+    header .logo-menu-btn-class .menu-btn-class {
+        margin: 5px 0  0 5px;
+    }
+    
+    header .logo-menu-btn-class .menu-logo-title {
+        margin: 5px -15px;
+    }
+    
+    /* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+    
+    /* =============== { START VIDEO PLAYER } ===============*/
+    
+    .videos-player-class {
+        margin: 5em auto;
+        width: 100%;
+    }
+
+    .videos-player-class .video-player {
+        width: 95%;
+        height: 490px auto;
+        margin: 0 auto;
+    }
+    
+    .video-controls-class {
+        top: 0.4em;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .buttons-controls .video-duration {
+        margin: 0 auto;
+    }
+
+    .video-title-date {
+        margin: 0 35px;
+    }
+
+.channel-info {
+    transform: translateX(15px);
+}
+
+.video-description-class .video-description,
+.video-description-fore {
+    margin: 10px 10px;
+}
+    
+    
+    /* =============== { END VIDEO PLAYER } ===============*/
+    
+    /* =============== { START VIDEOS PLAYLIST } ===============*/
+    
+    .videos-playlist {
+        width: 95%;
+        float: none;
+        margin: 2px auto;
+    }
+    
+    .playlist-contents .video-playlist img {
+        width: 190px;
+        height: 110px;
+    }
+    
+    .playlist-contents .video-playlist-info {
+        margin: 0 5px;
+        width: 59%;
+    }
+    
+    
+    /* =============== { END VIDEOS PLAYLIST } ===============*/
+    
+    
+    /* =============== { START COMMENTS SYSTEM } ===============*/
+    
+    .comments-system-class {
+        margin: 50px 15px;
+        width: 95%;
+    }
+    
+    .user-logo-comments-input .comments-input input[type="text"] {
+        width: 95%;
+    }
+    
+    .send-system {
+        display: block;
+    }
+    
+    .sends-system .send-info {
+        margin: 0 3em;
+    }
+    
+    .sends-system .send-cancel-btn {
+        margin: 10px 2em;
+    }
+    
+    /* =============== { END COMMENTS SYSTEM } ===============*/
+    
+    
+    }
+    
+    /* =============== { END RESPONSE ON MEDIAN DEVICES } ===============*/
