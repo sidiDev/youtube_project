@@ -1,0 +1,3264 @@
+/* =============== { START RESPONSE ON SMALL DEVICES } ===============*/
+
+@media (min-width: 300px) and (max-width: 374px) {
+
+    header {
+        height: 50px;
+        transition-duration: .5s;
+        transition-delay: .3s;
+    }
+
+    /* =============== { START SING IN CLASS } ===============*/
+
+    .settings-class {
+        padding: 0;
+        width: none;
+        margin: 0 1em
+    }
+
+    header .sign-in-class {
+        width: 20px;
+        margin: 5px 2px;
+        padding: 0;
+        border: solid 1px transparent;
+    }
+
+    .sign-in-class .sign-in .sign-in-icon {
+        background-color: rgb(121, 120, 120)
+    }
+
+    .sign-in-class .sign-in span {
+        display: none;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.first-setting .frst-sg-btn {
+    display: none;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.second-setting .sd-sg-btn {
+    display: none;
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.firth-setting .fth-sg-btn {
+    display: none;
+}
+
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background-color: #FFF;
+    height: 50px;
+    display: none;
+}
+
+header .search-class .search {
+    margin: 10px;
+    width: 75%;
+}
+
+
+header .search-class .search input[type="text"] {
+    width: 95%;
+}
+
+header .search-class .search .search-btn {
+    width: 50px;
+    height: 30px;
+}
+
+header .search-class .search .search-btn img {
+    margin: 6px 20px;
+}
+
+.search-class .back-btn {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 13px 17px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.search-class .back-btn-img {
+    width: 30px;
+}
+
+.search-class .back-btn img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+header .search-class-intro {
+    position: relative;
+    margin: 17px 20px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+
+header .search-class-intro img {
+    width: 16px;
+    height: 16px;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    display: none
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    margin: 7px auto;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    display: none;
+}
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em auto;
+    width: 100%;
+}
+
+article .Recommended-text {
+    width: 270px;
+}
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+.videos-container-class {
+    grid-template-columns: repeat(1,0fr);
+    justify-content: center;
+    margin: -25px auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 270px;
+    position: relative;
+    margin: 2em auto;
+}
+
+
+.video-container .video-desc {
+    width: 90%;
+}
+
+.video-container .video-desc p {
+    font-size: 13px;
+}
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -9em;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 5px;
+    width: 95%;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 5em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 100%;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name p {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 15px;
+    top: 25px;
+    
+}
+
+.queue-added .up-down-btn img {
+    transform: rotate(-90deg);
+    margin: 10px auto
+}
+
+.delete-queue-class .delete-queue-note {
+    background-color: #FFF;
+    margin: 15em auto;
+    display: inline-block;
+    width: 97%;
+    padding: 5px 0 5px 0;
+}
+
+/* =============== { END QUEUE CLASS } ===============*/
+
+/* =============== { START FOOTER } ===============*/
+
+.small-devices-footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    background-color: #FFF;
+    transition-delay: .5s;
+    transition-duration: .5s; 
+
+}
+
+.small-devices-footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-container .footer-item {
+    width: 30%;
+    padding: 5px;
+}
+
+.footer-container .footer-item img {
+    width: 22px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.footer-container .footer-item:first-child span {
+    color: #FF0000;
+}
+
+.footer-container .footer-item span {
+    display: block;
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* when the user scroll down the header and footer will hide 
+and when scroll up the header and footer will show
+*/
+
+.hideHeader {
+    top: -5em;
+}
+
+.hideFooter {
+    bottom: -5em;
+}
+
+.removeScrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ================ { END } =================*/
+
+/* =============== { START FOOTER } ===============*/
+
+}
+
+
+/* =============== { END RESPONSE ON MEDIAN DEVICES } ===============*/
+
+
+/* =============== { START RESPONSE ON MEDIAN DEVICES } ===============*/
+
+@media (min-width: 375px) and (max-width: 514px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.first-setting .frst-sg-btn {
+    position: relative;
+    margin: 5px 1px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.first-setting .frst-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 15px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.second-setting .sd-sg-btn {
+    margin: 5px -6px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.second-setting .sd-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 15px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.firth-setting .fth-sg-btn {
+    margin: 5px 5px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.firth-setting .fth-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background-color: #FFF;
+    height: 50px;
+    display: none;
+}
+
+header .search-class .search {
+    margin: 10px;
+    width: 75%;
+}
+
+header .search-class .search input[type="text"] {
+    width: 95%;
+}
+
+header .search-class .search .search-btn {
+    width: 50px;
+    height: 30px;
+}
+
+header .search-class .search .search-btn img {
+    margin: 6px 20px;
+}
+
+.search-class .back-btn {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 13px 17px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.search-class .back-btn span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    opacity: 0;
+    margin: 3em -2em;
+    transition: .3s;
+    z-index: 3;
+    cursor: default;
+}
+
+.search-class .back-btn-img {
+    width: 30px;
+}
+
+.search-class .back-btn-img:hover > span {
+    opacity: 1;
+}
+
+.search-class .back-btn-img span:hover {
+    opacity: 0;
+}
+
+.search-class .back-btn img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+header .search-class-intro {
+    position: relative;
+    margin: 22px -2px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+
+header .search-class-intro span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    opacity: 0;
+    margin: 3.5em -2.2em;
+    transition: .3s;
+    z-index: 3;
+    cursor: default;
+}
+
+header .search-class-intro:hover > span{
+    opacity: 1;
+}
+
+header .search-class-intro span:hover{
+    opacity: 0;
+}
+
+header .search-class-intro img {
+    width: 16px;
+    height: 16px;
+}
+
+.headerHeight {
+    height: 0;
+}
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em auto;
+    width: 90%;
+}
+
+article .Recommended-text {
+    width: 300px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
+
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+.videos-container-class {
+    grid-template-columns: repeat(1,0fr);
+    justify-content: center;
+    margin: -25px auto;
+}
+
+.videos-container-class .video-container {
+    width: 300px;
+    position: relative;
+    margin: 2em auto;
+}
+
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 15px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 2.8em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 250px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 15px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =========== { OTHER RESPONSE ON DEVICES } =========== */
+
+@media (min-width: 515px) and (max-width: 566px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.first-setting .frst-sg-btn {
+    position: relative;
+    margin: 5px 1px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.first-setting .frst-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 15px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.second-setting .sd-sg-btn {
+    margin: 5px -6px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.second-setting .sd-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 15px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.firth-setting .fth-sg-btn {
+    margin: 5px 5px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.firth-setting .fth-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background-color: #FFF;
+    height: 50px;
+    display: none;
+}
+
+header .search-class .search {
+    margin: 10px;
+    width: 75%;
+}
+
+header .search-class .search input[type="text"] {
+    width: 95%;
+}
+
+header .search-class .search .search-btn {
+    width: 50px;
+    height: 30px;
+}
+
+header .search-class .search .search-btn img {
+    margin: 6px 20px;
+}
+
+.search-class .back-btn {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 13px 17px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.search-class .back-btn span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    opacity: 0;
+    margin: 3em -2em;
+    transition: .3s;
+    z-index: 3;
+    cursor: default;
+}
+
+.search-class .back-btn-img {
+    width: 30px;
+}
+
+.search-class .back-btn-img:hover > span {
+    opacity: 1;
+}
+
+.search-class .back-btn-img span:hover {
+    opacity: 0;
+}
+
+.search-class .back-btn img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+header .search-class-intro {
+    position: relative;
+    margin: 22px -2px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+
+header .search-class-intro span {
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    opacity: 0;
+    margin: 3.5em -2.2em;
+    transition: .3s;
+    z-index: 3;
+    cursor: default;
+}
+
+header .search-class-intro:hover > span{
+    opacity: 1;
+}
+
+header .search-class-intro span:hover{
+    opacity: 0;
+}
+
+header .search-class-intro img {
+    width: 16px;
+    height: 16px;
+}
+
+.headerHeight {
+    height: 0;
+}
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em auto;
+    width: 99%;
+}
+
+article .Recommended-text {
+    width: 90%;
+}
+
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+
+.videos-container-class {
+    grid-template-columns: repeat(2,1fr);
+    margin: -25px auto;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 90%;
+    position: relative;
+    margin: 2em auto;
+}
+
+.video-container .video-img {
+    width: 100%;
+    height: 180px;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 20px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 2.8em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 220px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 5px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =============== { END OUTER RESPONSE } ===============*/
+
+
+/* =========== { OTHER RESPONSE ON DEVICES } =========== */
+
+@media (min-width: 567px) and (max-width: 809px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+.first-setting .frst-sg-btn {
+    position: relative;
+    margin: 5px 1px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.first-setting .frst-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 15px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.second-setting .sd-sg-btn {
+    margin: 5px -6px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.second-setting .sd-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 15px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.firth-setting .fth-sg-btn {
+    margin: 5px 5px  0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.firth-setting .fth-sg-btn:active {
+    background: transparent;
+}
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class .search {
+    margin: 15px -3px;
+    float: right;
+    display: flex;
+    width: 40%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em auto;
+    width: 99%;
+}
+
+article .Recommended-text {
+    width: 90%;
+}
+
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+
+.videos-container-class {
+    grid-template-columns: repeat(2,1fr);
+    margin: -25px auto;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 90%;
+    position: relative;
+    margin: 2em auto;
+}
+
+.video-container .video-img {
+    width: 100%;
+    height: 180px;
+}
+
+.video-container .video-time {
+    top: 9.8em;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 20px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 2.8em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 220px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 5px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =============== { END OUTER RESPONSE } ===============*/
+
+
+
+/* =========== { OTHER RESPONSE ON DEVICES } =========== */
+/* 1366px is my screen size */
+
+@media (min-width: 810px) and (max-width: 909px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 10px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 10px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class .search {
+    margin: 15px 1em;
+    float: right;
+    display: flex;
+    width: 45%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+.menus-class {
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+
+.menus-class .menu-containers {
+    position: fixed;
+    top: 60px;
+    background: #FFF;
+    overflow-y: scroll;
+    height: 93%;
+    width: 75px;
+}
+
+.menu-containers::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-containers:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-containers:hover::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(214, 211, 211);
+}
+
+.menu-containers .options-class {
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.menu-containers .option-class {
+    transition: .1s;
+    cursor: pointer;
+}
+
+.menu-containers .options-class #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+}
+
+.menu-containers .options-class #home span {
+    color: #000;
+}
+.menu-containers .option-class .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.menu-containers .options-class .option-img-title img {
+    width: 19px;
+    height: 20px;
+}
+
+.menu-containers .options-class .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-containers .options-class #home:hover {
+    background: rgb(202, 200, 200);
+}
+
+.menu-containers .option-class:hover {
+    background-color: #F1F1F1;
+}
+
+.menus-class  #home {
+    background: #FFF;
+}
+
+.menus-class #home:hover {
+    background: #F1F1F1;
+}
+.menus-class #home span {
+    display: block;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.menus-class .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer .option-img-title span {
+    font-size: 10px;
+    display: block;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.menus-class #menuContainer::-webkit-scrollbar {
+    width: 0;
+}
+
+.menus-class #menuContainer .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer #option-img-title3 span {
+    transform: translateX(-1px)
+}
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em 11em;
+    width: 70%;
+}
+
+article .Recommended-text {
+    width: 270px;
+    transform: translateX(-7.5em)
+}
+
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+
+.videos-container-class {
+    grid-template-columns: repeat(2,1fr);
+    margin: -25px auto;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 270px;
+    position: relative;
+    margin: 2em auto;
+}
+
+.video-container .video-img {
+    width: 100%;
+    height: 180px;
+}
+
+.video-container .video-time {
+    top: 9.8em;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 20px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 2.8em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 220px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 5px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =============== { END OUTER RESPONSE } ===============*/
+
+
+
+/* =========== { OTHER RESPONSE ON DEVICES } =========== */
+/* 1366px is my screen size */
+
+@media (min-width: 910px) and (max-width: 1009px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 10px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 10px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class .search {
+    margin: 15px 1em;
+    float: right;
+    display: flex;
+    width: 45%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+.menus-class {
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+
+.menus-class .menu-containers {
+    position: fixed;
+    top: 60px;
+    background: #FFF;
+    overflow-y: scroll;
+    height: 93%;
+    width: 75px;
+}
+
+.menu-containers::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-containers:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-containers:hover::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(214, 211, 211);
+}
+
+.menu-containers .options-class {
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.menu-containers .option-class {
+    transition: .1s;
+    cursor: pointer;
+}
+
+.menu-containers .options-class #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+}
+
+.menu-containers .options-class #home span {
+    color: #000;
+}
+.menu-containers .option-class .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.menu-containers .options-class .option-img-title img {
+    width: 19px;
+    height: 20px;
+}
+
+.menu-containers .options-class .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-containers .options-class #home:hover {
+    background: rgb(202, 200, 200);
+}
+
+.menu-containers .option-class:hover {
+    background-color: #F1F1F1;
+}
+
+.menus-class  #home {
+    background: #FFF;
+}
+
+.menus-class #home:hover {
+    background: #F1F1F1;
+}
+.menus-class #home span {
+    display: block;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.menus-class .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer .option-img-title span {
+    font-size: 10px;
+    display: block;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.menus-class #menuContainer::-webkit-scrollbar {
+    width: 0;
+}
+
+.menus-class #menuContainer .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer #option-img-title3 span {
+    transform: translateX(-1px)
+}
+
+.video-container .video-time {
+    top: 9.8em;
+}
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em 5em;
+    width: 90%;
+}
+
+article .Recommended-text {
+    width: 90%;
+}
+
+.removed-median-device {
+    display: none;
+}
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+
+.videos-container-class {
+    grid-template-columns: repeat(3,1fr);
+    margin: -25px auto;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 260px;
+    position: relative;
+    margin: 2em auto;
+}
+
+.video-container .video-img {
+    width: 100%;
+    height: 180px;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 20px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 21em;
+}
+
+article .queue-added-class-by-js {
+    top: 2.8em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 220px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 5px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =============== { END OUTER RESPONSE } ===============*/
+
+
+/* =========== { OTHER RESPONSE ON DEVICES } =========== */
+/* 1366px is my screen size */
+
+@media (min-width: 1010px) and (max-width: 1365px) {
+
+    /* =============== { START SING IN CLASS } ===============*/
+    .settings-class {
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    header .sign-in-class {
+        width: 75px;
+        margin: 5px 2px;
+        padding: 0 4px 0 4px;
+    }
+
+    .sign-in-class .sign-in span {
+        font-size: 13px;
+    }
+
+/* =============== { END SING IN CLASS } ===============*/
+
+/* =============== { START FIRST SETTING } ===============*/
+
+
+.settings-class .settings .first-setting .frst-sg-box {
+    right: 0;
+    left: -9em;
+    margin: 10px auto;
+}
+
+.settings-class .settings .first-setting .frst-sg-img {
+    margin: 10px 0 0 12px;
+}
+
+/* =============== { END FIRST SETTING } ===============*/
+
+/* =============== { START SECOND SETTING } ===============*/
+
+.settings-class .settings .second-setting .sd-sg-img {
+    width: 18px;
+    height: 16px;
+    margin: 11px 0 0 10px;
+}
+
+.settings-class .settings .second-setting .sd-sg-box {
+    width: 220px;
+    left: -7em;
+    margin: 10px auto
+}
+
+/* =============== { END SECOND SETTING } ===============*/
+
+/* =============== { START FIRTH SETTING } ===============*/
+
+.settings-class .settings .firth-setting .fth-sg-img {
+    width: 40px;
+    height: 35px;
+    margin: 2px -0px;
+}
+
+.settings-class .settings .firth-setting .fth-sg-box {
+    width: 190px;
+    margin: 1px -25px;
+}
+/* =============== { END FIRTH SETTING } ===============*/
+
+/* =============== { START SEARCH CLASS } ===============*/
+
+header .search-class .search {
+    margin: 15px 5em;
+    float: right;
+    display: flex;
+    width: 45%;
+    border: solid 1px rgb(216, 215, 215);
+    position: relative;
+}
+
+/* =============== { END SEARCH CLASS } ===============*/
+
+/* =============== { START LOGO AND MENU BUTTON CLASS } ===============*/
+
+header .logo-menu-btn-class .menu-btn-class {
+    margin: 10px 0  0 3px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active {
+    background: transparent;
+}
+
+header .logo-menu-btn-class .menu-btn-class:active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    background: rgb(235, 234, 234);
+    margin: 5px 4px;
+    border-radius: 50%
+}
+
+header .logo-menu-btn-class .menu-logo-title {
+    padding-left: 5px;
+}
+
+header .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+}
+
+header .logo-menu-btn-class .menu-logo-title img {
+    width: 38px;
+    height: 30px;
+    margin: 5px auto
+}
+
+header .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -5px;
+}
+
+/* =============== { END LOGO AND MENU BUTTON CLASS } ===============*/
+
+
+/* =============== { START MENU CLASS } ===============*/
+
+.menu-class {
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    background-color: #FFF;
+    width: 230px;
+    transition: .3s;
+    /**/left: -15em;
+}
+
+.menu-cover {
+    position: fixed;
+    height: 100%;;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+    z-index: 7;
+}
+#logo-menu-btn-class-menu {
+    display: block;
+    height: 63px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.menu-class .menu-container {
+    top: 64px;
+    height: 93%;
+    width: 230px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.menu-class .logo-menu-btn-class {
+    float: left;
+    display: block
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class {
+    display: inline-block;
+    margin: 10px 0  0 20px;
+    user-select: none;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    transition: .1s ease-in-out;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn-class:active {
+    background: rgb(235, 234, 234);
+}
+
+.menu-class .logo-menu-btn-class .menu-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #555;
+}
+
+.menu-class .logo-menu-btn-class .menu-btn {
+    margin: 14px 0 0 6px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title {
+    float: right;
+    display: flex;
+    margin: 10px auto;
+    width: 99px;
+    padding-left: 10px;
+}
+
+
+.menu-class .logo-menu-btn-class .menu-logo-title img {
+    width: 40px;
+    height: 38px;
+}
+
+.menu-class .logo-menu-btn-class .menu-logo-title .menu-title span {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 -3px;
+    user-select: none;
+}
+
+/* =============== { SATRT OPEN AND CLOSE MENU CLASS } ===============*/
+
+.openMenu {
+    left: -0em;
+}
+
+.moveScrollBar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.lastPartMenu {
+    display: block;
+}
+
+.menuContainerCloseed {
+    width: 230px;
+}
+
+.menu-container-by-js {
+    width: 230px;
+}
+
+.menu-class .openCloseMenu {
+    background: #FFF;
+    width: 230px;
+    margin: 15px auto;
+}
+
+.menu-class .openCloseMenu #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+    font-size: 15px;
+}
+
+.menu-class .openCloseMenu #home:hover {
+    background: rgb(202, 200, 200);
+}
+.menu-class .openCloseMenu #home span {
+    display: auto;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-class .openCloseMenu .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+    display: flex;
+
+}
+
+.menu-class .openCloseMenu .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-class .openCloseMenu #option-img-title3 span {
+    transform: translateX(0);
+}
+
+.menu-container .openCloseMenu .second-part-of-menu {
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #F1F1F1;
+}
+
+/* =============== { END OPEN AND CLOSE MENU CLASS } ===============*/
+
+.menus-class {
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+
+.menus-class .menu-containers {
+    position: fixed;
+    top: 60px;
+    background: #FFF;
+    overflow-y: scroll;
+    height: 93%;
+    width: 75px;
+}
+
+.menu-containers::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-containers:hover::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-containers:hover::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(214, 211, 211);
+}
+
+.menu-containers .options-class {
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.menu-containers .option-class {
+    transition: .1s;
+    cursor: pointer;
+}
+
+.menu-containers .options-class #home {
+    background: rgb(231, 230, 230);
+    color: #000;
+}
+
+.menu-containers .options-class #home span {
+    color: #000;
+}
+.menu-containers .option-class .option-img-title {
+    padding: 11px 0 11px 25px;
+    user-select: none;
+}
+
+.menu-containers .options-class .option-img-title img {
+    width: 19px;
+    height: 20px;
+}
+
+.menu-containers .options-class .option-img-title span {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 1px 20px;
+    color: rgb(99, 98, 98);
+}
+
+.menu-containers .options-class #home:hover {
+    background: rgb(202, 200, 200);
+}
+
+.menu-containers .option-class:hover {
+    background-color: #F1F1F1;
+}
+
+.menus-class  #home {
+    background: #FFF;
+}
+
+.menus-class #home:hover {
+    background: #F1F1F1;
+}
+.menus-class #home span {
+    display: block;
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.menus-class .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer .option-img-title span {
+    font-size: 10px;
+    display: block;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.menus-class #menuContainer::-webkit-scrollbar {
+    width: 0;
+}
+
+.menus-class #menuContainer .option-img-title {
+    padding: 20px 0 15px 0;
+    text-align: center
+}
+
+.menus-class #menuContainer #option-img-title3 span {
+    transform: translateX(-1px)
+}
+
+
+/* =============== { END MENU CLASS } ===============*/
+
+/* =============== { START VIDEOS CONTAINER } ===============*/
+
+
+article {
+    margin: 6em 6em;
+    width: 90%;
+}
+
+article .Recommended-text {
+    width: 90%;
+}
+
+.removed-median-device {
+    display: none;
+}
+
+.all-videos-class {
+    margin: 0 auto;
+}
+
+
+.videos-container-class {
+    grid-template-columns: repeat(3,1fr);
+    margin: -25px auto;
+    overflow: hidden;
+}
+
+.videos-container-class .video-container {
+    width: 90%;
+    position: relative;
+    margin: 2em auto;
+}
+
+.video-container .video-img {
+    width: 100%;
+    height: 180px;
+}
+
+/* =============== { END VIDEOS CONTAINER } ===============*/
+
+/* =============== { START QUEUE CLASS } ===============*/
+
+article .queue-added-class {
+    right: 20px;
+    width: 350px;
+    z-index: 5;
+}
+
+article .queue-added-class-by-js2 {
+    top: 24em;
+}
+
+article .queue-added-class-by-js {
+    top: 7.5em;
+} 
+
+article .queue-added-class .queue-added-img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+
+article .queue-added-class .queue-added-title {
+    width: 350px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name {
+    position: relative;
+    cursor: pointer;
+    width: 220px;
+}
+
+.small-queue-added-class .small-queue-added-titel-channel-name .delete-class {
+    right: 5px;
+    top: 25px;
+    
+}
+
+.video-desc .add-to-queue-class .add-to-queue {
+    margin: 3px -8em;
+}
+
+.video-container .video-time {
+    top: 9.8em;
+}
+
+/* =============== { END QUEUE CLASS } ===============*/
+
+}
+
+/* =============== { END OUTER RESPONSE } ===============*/
+
+
+/* =============== { END RESPONSE ON MEDIAN DEVICES } ===============*/
+
+/* =============== { START RESPONSE ON LARGE DEVICES } ===============*/
+
+@media screen and (min-width: 1400px) and (max-width: 1480px) {
+    
+.videos-container-class .video-container {
+    width: 270px;
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.videos-container-class .video-container-by-js {
+    width: 310px;
+}
+
+header .search-class .search .search-btn {
+    width: 56px;
+    height: 30px;
+}
+
+header .search-class .search .search-btn img {
+    width: 16px;
+    height: 16px;
+    margin: 7px 20px;
+}
+
+}
+
+@media screen and (min-width: 1481px) and (max-width: 1570px) {
+    
+    .videos-container-class .video-container {
+        width: 290px;
+        position: relative;
+        margin: 7px;
+        cursor: pointer;
+    }
+    
+    .videos-container-class .video-container-by-js {
+        width: 330px;
+    }
+    
+    header .search-class .search .search-btn {
+        width: 60px;
+        height: 30px;
+    }
+    
+    }
+
+    @media screen and (min-width: 1571px) and (max-width: 1600px) {
+    
+        .videos-container-class .video-container {
+            width: 300px;
+            position: relative;
+            margin: 7px;
+            cursor: pointer;
+        }
+        
+        .videos-container-class .video-container-by-js {
+            width: 350px;
+        }
+        
+        header .search-class .search .search-btn {
+            width: 60px;
+            height: 30px;
+        }
+        
+        }
+        
+    
+/* =============== { END RESPONSE ON LARGE DEVICES } ===============*/
