@@ -736,8 +736,12 @@ header .search-class .search {
         text-align: right;
     }
 
+    .video-controls {
+        bottom: 4em;
+    }
+
     .video-controls-by-js {
-        bottom: 3em;
+        bottom: 4em;
     }
     
     .video-title-date {
@@ -969,6 +973,14 @@ header .search-class .search .search-btn {
         top: 0.4em;
         width: 100%;
         height: 100%;
+    }
+
+    .video-controls {
+        bottom: 4em;
+    }
+
+    .video-controls-by-js {
+        bottom: 4em;
     }
     
     .buttons-controls .video-duration {
